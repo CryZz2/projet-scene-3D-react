@@ -26,7 +26,7 @@ function App() {
         {/* Modèles statiques */}
         <Model path="/models/tree.glb" position={[-4, 0, 0]} scale={[0.5, 0.5, 0.5]} />
         <Model path="/models/rock.glb" position={[0, 0, 0]} scale={[0.3, 0.3, 0.3]} />
-        <Model path="/models/house.glb" position={[4, 0, 0]} scale={[0.8, 0.8, 0.8]} />
+        <Model path="/models/house.glb" position={[4, 7.50, 30]} scale={[0.8, 0.8, 0.8]} />
 
         {/* Modèle animé */}
         <AnimatedModel path="/models/t-rex-2.glb" position={[0, 0, -4]} scale={[1, 1, 1]} />

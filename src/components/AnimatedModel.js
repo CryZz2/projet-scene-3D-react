@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function AnimatedModel({ path, position = [0, 0, 0], scale = [1, 1, 1] }) {

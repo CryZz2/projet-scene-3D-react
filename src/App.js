@@ -1,13 +1,10 @@
-import React, { useRef } from "react";
-import { useGLTF, useAnimations, OrbitControls } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { Canvas } from '@react-three/fiber'
 import { Model } from './components/Model'
 import { AnimatedModel } from './components/AnimatedModel'
-import { useTexture } from '@react-three/drei'
 import Leva from './components/Leva'
-import { EffectComposer, Bloom, Noise, Vignette } from '@react-three/postprocessing'
+import { EffectComposer, Bloom, Vignette } from '@react-three/postprocessing'
 import { MeshReflectorMaterial } from '@react-three/drei'
-import { useControls } from 'leva'
 import ReflectiveGround from './components/ReflectiveGround'
 
 function App() {
